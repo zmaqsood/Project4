@@ -3,3 +3,13 @@ The repository corresponds to the implementation of Composite Design Pattern.
 The composite pattern is a structural pattern, as it's used to form large object structures across many disparate objects. It "allow you to compost objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly". 
 
 We are using an example of a simple concept of a facility, building and units. A facility is something that is available to be used by the user. A building can have one or many facilities and the buildings and units are themselves facilities(both implement the Facility interface). The “Facility” interface in our implementation corresponds to the “Component” part, the “Building” class is equivalent to the “Composite” portion and finally the “Unit” part is the “Leaf” equivalent.
+
+
+Useful Resources:
+
+http://java.dzone.com/articles/design-patterns-composite
+
+http://www.blackwasp.co.uk/Composite.aspx
+
+http://en.wikipedia.org/wiki/Composite_pattern
+
